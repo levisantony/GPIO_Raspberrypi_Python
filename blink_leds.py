@@ -4,7 +4,7 @@ import time
 
 GPIO.setmode(GPIO.BOARD)
 # Setting pins(11,12,13,15,16,18) as output
-print "Setup Pin 11"
+print "Setup Pin 11,12,13,15,16,18"
 GPIO.setup(11, GPIO.OUT)
 GPIO.setup(12, GPIO.OUT)
 GPIO.setup(13, GPIO.OUT)
